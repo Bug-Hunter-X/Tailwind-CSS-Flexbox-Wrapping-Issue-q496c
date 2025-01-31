@@ -1,0 +1,10 @@
+The following code uses Tailwind's `flex` utility class, but the items don't wrap onto the next line even when there's not enough horizontal space.  This is unexpected behavior and demonstrates a common misunderstanding of how `flex` works in conjunction with other Tailwind classes.
+
+```html
+<div class="flex">
+  <div class="bg-blue-500 w-48 h-20 m-2">Item 1</div>
+  <div class="bg-green-500 w-48 h-20 m-2">Item 2</div>
+  <div class="bg-red-500 w-48 h-20 m-2">Item 3</div>
+  <div class="bg-yellow-500 w-48 h-20 m-2">Item 4</div>
+</div>
+```
